@@ -1,2 +1,24 @@
-# Credential-Manager
-Credential Manager is a full-stack web application that allows users to securely store,  manage, edit, delete, and copy login credentials (website URL, username, and password).  The application provides a user-friendly interface with real-time validations, password  masking, clipboard support, and persistent storage using a backend API. 
+# Credential Manager 🔐
+
+A full-stack password manager built using React and Node.js.
+
+## Features
+- Add / Edit / Delete credentials
+- Copy to clipboard
+- Password visibility toggle
+- Toast notifications
+
+## Tech Stack
+- React
+- Node.js
+- Express
+- MongoDB (or JSON server)
+
+## Environment Variables
+Create a `.env` file in frontend:
+
+VITE_API_URL=http://localhost:3000
+
+## How to Run
+1. npm install
+2. npm run dev
